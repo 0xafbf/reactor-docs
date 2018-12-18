@@ -97,7 +97,7 @@ int main()
 
 I want to take some time to explain the thing about the matrices. Most of the
 time in other software you use transform data (location/rotation/scale). And
-they hide you the matrix behind it. `reactor` is designed to aid in the
+they hide the matrix math from you. `reactor` is designed to aid in the
 understanding of things, so I wanted to be able to show things like how a
 projection matrix morphs things as seen from one side for example. For me it is
 important to allow this kind of experimentation. You can see an example of this
@@ -110,7 +110,7 @@ need to subclass or extend anything, I think it is easy to integrate in some
 way.
 
 In addition to that, the idea in the future is to be able to set up your scene
-in a visual graph, below you can find a couple examples of what it would look
+in a visual graph, below you can find an example of what it would look
 like.
 ![nodes demo](nodes.png)
 
