@@ -28,6 +28,8 @@ well.
 This is an implementation for a basic program to show a 3d model in the
 viewport. Please keep in mind that all the API is still work in progress.
 
+![basic reactor usage](demo1.png)
+
 ```c++
 #include "reactor.h"
 
@@ -100,16 +102,17 @@ understanding of things, so I wanted to be able to show things like how a
 projection matrix morphs things as seen from one side for example. For me it is
 important to allow this kind of experimentation. You can see an example of this
 below.
+![matrices demo](demo2.gif)
 
 I also want to highlight the simplicity, you just have a `main` function with
 some setup, and an infinite loop with a straightforward interaction. There is no
-need to subclass or extend anything, it is somewhat pluggable in a way.
+need to subclass or extend anything, I think it is easy to integrate in some
+way.
 
 In addition to that, the idea in the future is to be able to set up your scene
 in a visual graph, below you can find a couple examples of what it would look
 like.
-
-
+![nodes demo](nodes.png)
 
 When I get to that point, I would like to have a library of commonly used
 algorithms in videogames/visualization, such as PBR rendering, ambient
